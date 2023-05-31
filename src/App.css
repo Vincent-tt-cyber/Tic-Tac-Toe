@@ -1,0 +1,11 @@
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  /* margin: 0 auto; */
+  justify-content: center;
+}
+.status {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
